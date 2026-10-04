@@ -15,8 +15,10 @@ A simple Java project that demonstrates basic **Object-Oriented Programming (OOP
 ```text
 BankAccountManagement/
 │
-├── BankAccount.java
-├── Main.java
+├── src/
+│   ├── BankAccount.java
+│   └── Main.java
+│
 ├── .gitignore
 └── README.md
 ```
@@ -66,13 +68,13 @@ Error: Insufficient balance
 Compile the Java files:
 
 ```bash
-javac BankAccount.java Main.java
+javac src/BankAccount.java src/Main.java
 ```
 
 Run the program:
 
 ```bash
-java Main
+java -cp src Main
 ```
 
 ## Author
